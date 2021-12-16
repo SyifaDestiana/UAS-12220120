@@ -20,10 +20,10 @@ st.markdown(subheader, unsafe_allow_html=True)
 file = open("kode_negara_lengkap.json")
 filejson= json.load(file)
 dataj= pd.DataFrame.from_dict(filejson, orient='columns')
-datacsv = pd.read_csv("C:/Users/Syifa Destiana/Documents/KULIAH/Prokom/produksi_minyak_mentah.csv")
+datacsv = pd.read_csv("produksi_minyak_mentah.csv")
 
 
-json_file = open("C:/Users/Syifa Destiana/Documents/KULIAH/Prokom/kode_negara_lengkap.json")
+json_file = open("kode_negara_lengkap.json")
 json_data = json_file.read()
 data_json = json.loads(json_data)
 
