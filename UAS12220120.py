@@ -17,7 +17,7 @@ subheader = '<p style="font-family:Nanum Pen Script; color:Black; font-size: 15p
 st.markdown(subheader, unsafe_allow_html=True)
 
 #Import Data yang ada
-file = open("C:/Users/Syifa Destiana/Documents/KULIAH/Prokom/kode_negara_lengkap.json")
+file = open("kode_negara_lengkap.json")
 filejson= json.load(file)
 dataj= pd.DataFrame.from_dict(filejson, orient='columns')
 datacsv = pd.read_csv("C:/Users/Syifa Destiana/Documents/KULIAH/Prokom/produksi_minyak_mentah.csv")
