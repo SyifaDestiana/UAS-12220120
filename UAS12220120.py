@@ -1,3 +1,7 @@
+# UAS dan TUBES IF2112 Pemprograman Komputer
+# Nama : Syifa Destiana
+# NIM  : 12220120 
+ 
  #Import DataFrame yang Dibutuhkan
 import pandas as pd
 import numpy as np
